@@ -1,10 +1,54 @@
-/*  your css code here. If applicable */
-#head{
-	background:#011e29;
-	color:white;
-	text-align:center	
+*{
+	background:#f5f5f5;
+	
 }
 
-.body{
-	background:#f5f5f5;
+#one
+{
+	width:20%;
+	text-align:center;
+}
+#two{
+	width:50%;
+	text-align:center;
+}
+
+#three{
+	width:30%;
+	text-align:center;
+}
+
+img{
+	width:100%;
+}
+
+
+.box > h2,ul,li,p,h1{
+	background:white;
+}
+
+.box {
+	margin:10px;
+/* 	border:1px solid black; */
+	background:white;
+	padding:20px;
+	border-radius:20px;
+	height:fit-content;
+	
+	
+}
+
+
+.flex{
+	display:flex;
+/* 	width:100%; */
+	
+}
+
+header h1{
+	background-color: #011e29;
+	color:white;
+	display:flex;
+	justify-content: center;
+	padding:10px;
 }
